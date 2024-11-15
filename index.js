@@ -170,9 +170,9 @@ async function displayHeader() {
     const chalk = await import('chalk');
     console.log("");
     console.log(chalk.default.yellow(" ============================================"));
-    console.log(chalk.default.yellow("|                 BLOCKLESS-BOT              |"));
-    console.log(chalk.default.yellow("|                                            |"));
-    console.log(chalk.default.yellow("|                 AESTHETICCES               |"));
+    console.log(chalk.default.yellow("|                *BLOCKLESS-BOT*             |"));
+    console.log(chalk.default.yellow("|              jangan lupa nyungai           |"));
+    console.log(chalk.default.yellow("|                 *SRCryptoBoyz*             |"));
     console.log(chalk.default.yellow(" ============================================"));
     console.log("");
 }
