@@ -25,7 +25,7 @@ This script automates network or node operations for Blockless Bless Network Bot
 	```
 
 ## Usage
-1. Register to blockless bless network account first, if you dont have you can register [here](https://bless.network/dashboard?ref=).
+1. Register to blockless bless network account first, if you dont have you can register [here](https://bless.network/dashboard?ref=F1J3U4).
 2. Set and Modify `user.txt`. Below how to setup this file, put your B7S_AUTH_TOKEN in the text file, example below:
 	```
 	eyJhbGcixxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -65,4 +65,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 This script only for testing purpose, using this script might violates ToS and may get your account permanently banned.
 
 My reff code if you want to use :) : 
-https://bless.network/dashboard?ref=
+[https://bless.network/dashboard?ref=](https://bless.network/dashboard?ref=F1J3U4)
