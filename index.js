@@ -173,6 +173,7 @@ async function displayHeader() {
     console.log(chalk.default.yellow("|                *BLOCKLESS-BOT*             |"));
     console.log(chalk.default.yellow("|              jangan lupa nyungai           |"));
     console.log(chalk.default.yellow("|                 *SRCryptoBoyz*             |"));
+    console.log(chalk.default.yellow("|  BERANI PAKE BOT | KEBANNED JANGAN NNGAMUK |"));
     console.log(chalk.default.yellow(" ============================================"));
     console.log("");
 }
