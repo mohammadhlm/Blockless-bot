@@ -169,24 +169,18 @@ async function fetchIpAddress(fetch, agent) {
 async function displayHeader() {
     const chalk = await import('chalk');
     console.log("");
-    console.log(chalk.default.yellow("╔══════════════════════════════════════════════════════════════════╗");
-    console.log(chalk.default.yellow("                  ＯＰＥＮ-ＬＯＯＰ ＢＯＴ                                              ");
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("╚══════════════════════════════════════════════════════════════════╝", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ███████╗ ███████╗   ██████╗ ██╗ ██████╗               ███████╗  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ███╔═══╝ ██╔═══██╗ ██╔════╝ ╚═╝ ██╔══██╗██████╗██╗ ██╗╚═══███║  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ███████╗ ███████╔╝ ██║          ███████║██╔═██║██████║███████║  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ╚═══███║ ██╔═══██╗ ██║          ██╔══██║██║ ██║╚═██╔═╝███╔═══╝  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ███████║ ██║   ██║ ╚██████╗     ██████╔╝██████║  ██║  ███████╗  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ╚══════╝ ╚═╝   ╚═╝  ╚═════╝     ╚═════╝ ╚═════╝  ╚═╝  ╚══════╝  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("╔══════════════════════════════════════════════════════════════════╗", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("                 ＤＥＰＩＮ ＰＲＯＪＥＣＴ                            ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("╚══════════════════════════════════════════════════════════════════╝", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
-console.log("");
-    console.log(chalk.default.yellow("|                *BLOCKLESS-BOT*             |"));
-    console.log(chalk.default.yellow("|              jangan lupa nyungai           |"));
-    console.log(chalk.default.yellow("|                 *SRCryptoBoyz*             |"));
-    console.log(chalk.default.yellow("|  BERANI PAKE BOT | KEBANNED JANGAN NNGAMUK |"));
-    console.log(chalk.default.yellow(" ============================================"));
+    console.log(chalk.default.yellow("╔══════════════════════════════════════════════════════════════════╗"));
+    console.log(chalk.default.yellow("                  ＢＯＴ                                          "));
+    console.log(chalk.default.yellow("╚══════════════════════════════════════════════════════════════════╝"));
+    console.log(chalk.default.yellow("    ███████╗ ███████╗   ██████╗ ██╗ ██████╗               ███████╗  "));
+    console.log(chalk.default.yellow("    ███╔═══╝ ██╔═══██╗ ██╔════╝ ╚═╝ ██╔══██╗██████╗██╗ ██╗╚═══███║  "));
+    console.log(chalk.default.yellow("    ███████╗ ███████╔╝ ██║            ███████║██╔═██║██████║███████║  "));
+    console.log(chalk.default.yellow("    ╚═══███║ ██╔═══██╗ ██║           ██╔══██║██║ ██║╚═██╔═╝███╔═══╝  "));
+    console.log(chalk.default.yellow("    ███████║ ██║   ██║ ╚██████╗      ██████╔╝██████║  ██║  ███████╗  "));
+    console.log(chalk.default.yellow("    ╚══════╝ ╚═╝   ╚═╝  ╚═════╝      ╚═════╝ ╚═════╝  ╚═╝  ╚══════╝  "));
+    console.log(chalk.default.yellow("╔══════════════════════════════════════════════════════════════════╗"));
+    console.log(chalk.default.yellow("                 ＤＥＰＩＮ ＰＲＯＪＥＣＴ                                         "));
+    console.log(chalk.default.yellow("╚══════════════════════════════════════════════════════════════════╝"));
     console.log("");
 }
 
