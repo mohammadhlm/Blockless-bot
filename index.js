@@ -169,10 +169,8 @@ async function fetchIpAddress(fetch, agent) {
 async function displayHeader() {
     const chalk = await import('chalk');
     console.log("");
-    console.log(chalk.default.yellow(" ============================================"));
-    console.log("");
-console.log(chalk.MAGENTA_BOLD("╔══════════════════════════════════════════════════════════════════╗");
-console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("                  ＯＰＥＮ-ＬＯＯＰ ＢＯＴ                            ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
+    console.log(chalk.default.yellow("╔══════════════════════════════════════════════════════════════════╗");
+    console.log(chalk.default.yellow("                  ＯＰＥＮ-ＬＯＯＰ ＢＯＴ                                              ");
 console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("╚══════════════════════════════════════════════════════════════════╝", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
 console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ███████╗ ███████╗   ██████╗ ██╗ ██████╗               ███████╗  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
 console.log(${TEXT_COLORS.MAGENTA_BOLD}${alignTextCenter("    ███╔═══╝ ██╔═══██╗ ██╔════╝ ╚═╝ ██╔══██╗██████╗██╗ ██╗╚═══███║  ", terminalWidth)}${TEXT_COLORS.RESET_COLOR});
