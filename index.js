@@ -143,6 +143,34 @@ async function pingNode(nodeId, useProxy) {
 
     const pingUrl = `${apiBaseUrl}/nodes/${nodeId}/ping`;
     console.log(`[${new Date().toISOString()}] Pinging node ${nodeId}`);
+    try {
+        const response = await fetch(pingUrl, {
+            method: "POST",
+            headers: {
+                Authorization: `Bearer ${authToken}`
+            },
+            agent
+        });
+        const data = await response.json();
+        
+        if (data && data.pings && data.pings.length > 0) {
+            const lastPing = data.pings[data.pings.length - 1].timestamp;
+            const logMessage = `[${new Date().toISOString()}] Ping response, ID: ${chalk.default.green(data._id)}, NodeID: ${chalk.default.green(data.nodeId)}, Last Ping: ${chalk.default.yellow(lastPing)}`;
+            console.log(logMessage);
+        } else {
+            console.log(`[${new Date().toISOString()}] Ping response received, but no ping data available.`);
+        }
+        
+        return data;
+    } catch (error) {
+        console.error(`[${new Date().toISOString()}] Error during ping:`, error);
+        throw error;
+    }
+}
+
+
+    const pingUrl = `${apiBaseUrl}/nodes/${nodeId}/ping`;
+    console.log(`[${new Date().toISOString()}] Pinging node ${nodeId}`);
     const response = await fetch(pingUrl, {
         method: "POST",
         headers: {
